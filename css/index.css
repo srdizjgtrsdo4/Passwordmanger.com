@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.container a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 10px #000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.container a:hover {
+  flex: 2;
+}
+
+#sec1 {
+  background-image: url(/imgs/1.jpg);
+  background-size: cover;
+}
+#sec2 {
+  background-image: url(/imgs/2.jpg);
+  background-size: cover;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+}
+#sec3 {
+  background-image: url(/imgs/3.jpg);
+  background-size: cover;
+}
